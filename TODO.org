@@ -1,0 +1,29 @@
+* PROJECT  Clojure Koans
+** DONE destructuring
+   CLOSED: [2018-07-13 Fri 10:06]
+   1) State "DONE"       from "CANCELLED"  [2018-07-13 Fri 10:05]
+   2) State "CANCELLED"  from "WAITING"    [2018-07-13 Fri 10:05]
+** DONE refs
+   CLOSED: [2018-07-13 Fri 10:06] SCHEDULED: <2018-07-13 Fri> DEADLINE: <2018-07-13 Fri>
+   - State "DONE"       from "CANCELLED"  [2018-07-13 Fri 10:06]
+   - State "CANCELLED"  from "WAITING"    [2018-07-13 Fri 10:06]
+   - State "DONE"       from "CANCELLED"  [2018-07-13 Fri 10:06]
+   - State "CANCELLED"  from "DONE"       [2018-07-13 Fri 10:06]
+   - State "DONE"       from "CANCELLED"  [2018-07-13 Fri 10:05]
+   - State "CANCELLED"  from "WAITING"    [2018-07-13 Fri 10:05]
+** IN-PROGRESS atoms
+   SCHEDULED: <2018-07-13 Fri> DEADLINE: <2018-07-13 Fri>
+** TODO quote
+   SCHEDULED: <2018-07-13 Fri> DEADLINE: <2018-07-13 Fri>
+** TODO datatypes
+   SCHEDULED: <2018-07-16 Mon> DEADLINE: <2018-07-16 Mon>
+** TODO java interop
+   SCHEDULED: <2018-07-17 Tue> DEADLINE: <2018-07-17 Tue>
+** TODO partition
+   SCHEDULED: <2018-07-17 Tue> DEADLINE: <2018-07-17 Tue>
+** TODO group_by
+   SCHEDULED: <2018-07-18 Wed> DEADLINE: <2018-07-18 Wed>
+** TODO meta
+   SCHEDULED: <2018-07-18 Wed> DEADLINE: <2018-07-18 Wed>
+** TODO macros
+   SCHEDULED: <2018-07-19 Thu> DEADLINE: <2018-07-19 Thu>
