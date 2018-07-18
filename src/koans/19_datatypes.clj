@@ -18,9 +18,10 @@
 (deftype Razzie [category]
   Award
   (present [this recipient]
-    (print (str "You're really the "
+    (print
+     (str "You're really the "
                 (.category this)
-                ", " recipient "...sorry."))))
+                ", " recipient "... sorry."))))
 
 (meditations
   "Holding records is meaningful only when the record is worthy of you"
@@ -41,9 +42,9 @@
                 (Pulitzer. "music")]))
 
   "Either sort of datatype can define methods in a protocol"
-  (= (str"Congratulations on your Best Picture Oscar, " "Evil Alien Conquerors")
+  (= (str "Congratulations on your Best Picture Oscar, " "Evil Alien Conquerors!")
      (with-out-str (present (Oscar. "Best Picture") "Evil Alien Conquerors")))
 
   "Surely we can implement our own by now"
-  (= "You're really the Worst Picture, Final Destination 5... sorry."
-     (with-out-str (present (Razzie. "Worst Picture") "Final Destination 5"))))
+  (= "You're really the Worst Picture, Final Destintion 5... sorry."
+     (with-out-str (present (Razzie. "Worst Picture") "Final Destintion 5"))))
